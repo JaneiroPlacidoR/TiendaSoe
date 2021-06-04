@@ -1,0 +1,482 @@
+header h1 {
+    font-family: 'Changa';
+    color: black;
+    text-align: center;
+    width: 33%;
+    font-size: 53px;
+    font-weight: lighter;
+}
+
+header span {
+    width: 33%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.navb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /* position: sticky;
+    top: 0 */
+}
+
+.redes-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    text-align: center;
+}
+
+.redes-menu a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.redes-menu a:hover {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.redes-menu a:active {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.principal {
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 15px;
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/men-principal.jpg?alt=media&token=adc4c3df-56f2-4465-b665-465f872224a4");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal h4,
+h5 {
+    margin-left: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.more {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.each-more {
+    border: 1px solid white;
+    background-color: rgb(243, 243, 243);
+    height: 400px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.each-more h5 {
+    margin-left: 0px;
+    color: black;
+}
+
+
+.each-more img {
+    width: 250px;
+    height: 260px;
+
+}
+
+
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 30px;
+    background: white;
+    padding: 2px;
+}
+
+.each-category {
+    border: 1px solid rgb(223, 223, 223);
+    background-color: rgb(243, 243, 243);
+    height: 400px;
+    width: 16.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.each-category h5 {
+    margin-left: 0px;
+    color: black;
+}
+
+
+
+#shoes {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/shoes-man.jpg?alt=media&token=5d4072fc-4919-4ebd-b0c6-9df23d6255a1");
+}
+
+#shirts {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/shirt.jpg?alt=media&token=7be535e3-8a83-416b-907f-518fb5d65f8a");
+}
+
+#jackets {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/jacket-men.jpg?alt=media&token=e03a1e97-239e-4377-999c-cea1637a1341");
+}
+
+#pants {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/pant-men.jpeg?alt=media&token=67b424bd-7d39-4fd2-ace8-af76e94a5654");
+}
+
+
+#cows {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/cow-men.jpeg?alt=media&token=9821eefd-3575-4697-83a7-8f977ec237b3");
+}
+
+#underwear {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/underwear-men.png?alt=media&token=f042ab77-32c3-41eb-b4e2-a16ba260ccf4");
+}
+
+#shoes,
+#pants,
+#shirts,
+#jackets {
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#cows {
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#underwear {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+footer {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h4 {
+    font-family: 'Changa';
+}
+
+footer .redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:active {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:1530px) {
+    .principal {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+
+    .principal {
+        height: 500px;
+    }
+
+    .each-more {
+        height: 400px;
+        width: 33.3%;
+    }
+
+    .each-category {
+        height: 200px;
+        width: 25%;
+    }
+
+    .each-category h5 {
+        font-size: 17px;
+    }
+
+    #shoes,
+    #pants,
+    #shirts,
+    #jackets {
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    #cows {
+        background-size: 25%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #underwear {
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:845px) {
+
+    .principal {
+        height: 400px;
+    }
+
+    .each-category h5 {
+        font-size: 15px;
+    }
+
+    .each-more {
+        height: 400px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:745px) {
+    .each-category {
+        height: 250px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:675px) {
+
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header span {
+        font-size: 10px;
+    }
+
+    .redes-menu a {
+        font-size: 10px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 10px;
+    }
+
+    .redes-menu a:active {
+        font-size: 10px;
+    }
+
+    .principal {
+        height: 350px;
+    }
+
+    footer .redes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .each-more {
+        height: 400px;
+        width: 100%;
+    }
+
+    .each-category {
+        height: 210px;
+        width: 50%;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header span {
+        font-size: 8px;
+    }
+
+    .redes-menu a {
+        font-size: 8px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 8px;
+    }
+
+    .redes-menu a:active {
+        font-size: 8px;
+    }
+
+    .principal h4 {
+        font-size: 17px;
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    .principal h5 {
+        font-size: 13px;
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    .principal {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .each-category {
+        height: 195px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:475px) {
+
+    .each-category {
+        height: 185px;
+        width: 50%;
+    }
+
+    .principal {
+        height: 250px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header span {
+        font-size: 6px;
+    }
+
+    .redes-menu a {
+        font-size: 6px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 6px;
+    }
+
+    .redes-menu a:active {
+        font-size: 6px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+
+    #shoes,
+    #pants,
+    #shirts,
+    #jackets {
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    #cows {
+        background-size: 35%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #underwear {
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .principal {
+        height: 200px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header span {
+        font-size: 5px;
+    }
+
+    .redes-menu a {
+        font-size: 5px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 5px;
+    }
+
+    .redes-menu a:active {
+        font-size: 5px;
+    }
+
+}
+
+@media screen and (max-width:325px) {
+    .principal {
+        height: 150px;
+    }
+}

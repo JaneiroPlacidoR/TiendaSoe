@@ -1,0 +1,260 @@
+header h1 {
+    font-family: 'Changa';
+    color: black;
+    text-align: center;
+    width: 33%;
+    font-size: 53px;
+    font-weight: lighter;
+}
+
+header span {
+    width: 33%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.navb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0
+}
+
+.redes-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    text-align: center;
+}
+
+.redes-menu a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.redes-menu a:hover {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.redes-menu a:active {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-item h5 {
+    color: black;
+    background: white;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 90vh;
+}
+
+footer {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h4 {
+    font-family: 'Changa';
+}
+
+footer .redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:active {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:775px) {
+    .carousel {
+        height: 80vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 80vh;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+    .carousel {
+        height: 70vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 70vh;
+    }
+
+}
+
+@media screen and (max-width:675px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    header span {
+        font-size: 10px;
+    }
+
+    .redes-menu a {
+        font-size: 10px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 10px;
+    }
+
+    .redes-menu a:active {
+        font-size: 10px;
+    }
+
+    .carousel {
+        height: 55vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 55vh;
+    }
+
+    footer .redes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header span {
+        font-size: 8px;
+    }
+
+    .redes-menu a {
+        font-size: 8px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 8px;
+    }
+
+    .redes-menu a:active {
+        font-size: 8px;
+    }
+
+}
+
+
+@media screen and (max-width:475px) {
+
+    .carousel {
+        height: 45vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 45vh;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header span {
+        font-size: 6px;
+    }
+
+    .redes-menu a {
+        font-size: 6px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 6px;
+    }
+
+    .redes-menu a:active {
+        font-size: 6px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+
+    .carousel {
+        height: 40vh;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header span {
+        font-size: 5px;
+    }
+
+    .redes-menu a {
+        font-size: 5px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 5px;
+    }
+
+    .redes-menu a:active {
+        font-size: 5px;
+    }
+
+}

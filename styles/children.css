@@ -1,0 +1,474 @@
+header h1 {
+    font-family: 'Changa';
+    color: black;
+    text-align: center;
+    width: 33%;
+    font-size: 53px;
+    font-weight: lighter;
+}
+
+header span {
+    width: 33%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.navb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /* position: sticky;
+    top: 0 */
+}
+
+.redes-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    text-align: center;
+}
+
+.redes-menu a {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.redes-menu a:hover {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.redes-menu a:active {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.principal {
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 15px;
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/children%20principal.jpeg?alt=media&token=1738d8a0-b364-4f8f-93be-75a5ba99ee9a");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal h4,
+h5 {
+    margin-left: 50%;
+    text-align: center;
+    background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+    color: rgb(29, 29, 29);
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+}
+
+.more {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.each-more {
+    border: 1px solid white;
+    background-color: rgb(243, 243, 243);
+    height: 400px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.each-more h5 {
+    margin-left: 0px;
+    color: black;
+    background: none;
+}
+
+
+.each-more img {
+    width: 250px;
+    height: 260px;
+
+}
+
+
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 30px;
+    background: white;
+    padding: 2px;
+}
+
+.each-category {
+    border: 1px solid rgb(223, 223, 223);
+    background-color: rgb(243, 243, 243);
+    height: 400px;
+    width: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.each-category h5 {
+    margin-left: 0px;
+    color: black;
+
+}
+
+.boy {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.girl {
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+}
+
+#dresses {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/vestido%20girl.jpg?alt=media&token=b5aed767-9bdf-4d81-9e16-75349669b069");
+}
+
+#shoes {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/tenis%20girl.jpg?alt=media&token=994c94c9-d4a8-4486-a8db-3e9156929db3");
+}
+
+#skirtsandpants {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/falda%20girl.jpeg?alt=media&token=1d34d05f-7fd1-43cf-99ba-02cb33a11438");
+}
+
+#blouse {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/blousegirl.jpeg?alt=media&token=f2a04068-3cab-4488-96c2-400724bdc30d");
+}
+
+#pants {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/pantsboy.jpeg?alt=media&token=b3b98c8e-b240-4440-9f11-56ad917e9d78");
+}
+
+#shoesboy {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/shoesboy.jpg?alt=media&token=1635aa95-a89a-4deb-a000-120c8b59335e");
+}
+
+#shirts {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/shirtboy.jpeg?alt=media&token=5188a7bc-fe60-4d72-9960-b38680cfc4a0");
+}
+
+#hats {
+    background: url("https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/hatsboy.jpg?alt=media&token=f978de3a-556b-4eed-a0b3-7c48c0459b6f");
+}
+
+#shoes,
+#dresses,
+#hats,
+#pants,
+#shoesboy,
+#shirts {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#blouse,
+#skirtsandpants,
+#shirts {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+footer {
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h4 {
+    font-family: 'Changa';
+}
+
+footer .redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:active {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:1530px) {
+    .principal {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+
+    .principal {
+        height: 500px;
+    }
+
+    .each-more {
+        height: 400px;
+        width: 33.3%;
+    }
+
+    .each-category {
+        height: 200px;
+        width: 25%;
+    }
+
+    .each-category h5 {
+        font-size: 17px;
+    }
+
+    #shoes,
+    #dresses,
+    #hats,
+    #pants,
+    #shoesboy,
+    #shirts {
+        background-size: 20%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #blouse,
+    #skirtsandpants,
+    #shirts {
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+@media screen and (max-width:845px) {
+
+    .principal {
+        height: 400px;
+    }
+
+    .each-category h5 {
+        font-size: 15px;
+    }
+
+    .each-more {
+        height: 400px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:745px) {
+    .each-category {
+        height: 250px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:675px) {
+
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header span {
+        font-size: 10px;
+    }
+
+    .redes-menu a {
+        font-size: 10px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 10px;
+    }
+
+    .redes-menu a:active {
+        font-size: 10px;
+    }
+
+    .principal {
+        height: 350px;
+    }
+
+    footer .redes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .each-more {
+        height: 400px;
+        width: 100%;
+    }
+
+    .each-category {
+        height: 210px;
+        width: 50%;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header span {
+        font-size: 8px;
+    }
+
+    .redes-menu a {
+        font-size: 8px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 8px;
+    }
+
+    .redes-menu a:active {
+        font-size: 8px;
+    }
+
+    .principal h4 {
+        font-size: 17px;
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    .principal h5 {
+        font-size: 13px;
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    .principal {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .each-category {
+        height: 195px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:475px) {
+
+    .each-category {
+        height: 185px;
+        width: 50%;
+    }
+
+    .principal {
+        height: 250px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header span {
+        font-size: 6px;
+    }
+
+    .redes-menu a {
+        font-size: 6px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 6px;
+    }
+
+    .redes-menu a:active {
+        font-size: 6px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+
+
+    .principal {
+        height: 200px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header span {
+        font-size: 5px;
+    }
+
+    .redes-menu a {
+        font-size: 5px;
+    }
+
+    .redes-menu a:hover {
+        font-size: 5px;
+    }
+
+    .redes-menu a:active {
+        font-size: 5px;
+    }
+
+}
+
+@media screen and (max-width:325px) {
+    .principal {
+        height: 150px;
+    }
+}
